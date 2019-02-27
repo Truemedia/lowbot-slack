@@ -1,17 +1,17 @@
 {
-  "name": "lowbot-slack",
-  "version": "0.1.1",
-  "description": "Slack adapter for lowbot",
+  "name": "mindstack-slack",
+  "version": "0.2",
+  "description": "Slack adapter for Mind Stack",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Truemedia/lowbot-slack.git"
+    "url": "git+https://github.com/Truemedia/mindstack-slack.git"
   },
   "keywords": [
-    "lowbot",
+    "mindstack",
     "adapter",
     "slack",
     "api",
@@ -21,9 +21,9 @@
   "author": "Wade Penistone",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Truemedia/lowbot-slack/issues"
+    "url": "https://github.com/Truemedia/mindstack-slack/issues"
   },
-  "homepage": "https://github.com/Truemedia/lowbot-slack#readme",
+  "homepage": "https://github.com/Truemedia/mindstack-slack#readme",
   "dependencies": {
     "slack": "^11.0.1"
   }

@@ -1,5 +1,5 @@
-# Lowbot slack
-Slack adapter for lowbot
+# Mind Stack slack
+Slack adapter for Mind Stack
 
 ## This is a work in progress
 
@@ -7,20 +7,20 @@ Slack adapter for lowbot
 
 NPM
 ```bash
-    npm i --save lowbot-slack
+    npm i --save mindstack-slack
 ```
 
 Yarn
 ```bash
-    yarn add lowbot-slack
+    yarn add mindstack-slack
 ```
 
 ## Usage
 Node
 ```js
-    const LowBot = require('lowbot');
-    const slack = require('lowbot-slack');
+    const Bot = require('mindstack');
+    const slack = require('mindstack-slack');
 
-    let botInstance = new LowBot()
+    let botInstance = new Bot()
       .useAdapter(slack);
 ```
